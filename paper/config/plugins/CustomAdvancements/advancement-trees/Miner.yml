@@ -1,0 +1,319 @@
+options:
+  auto_active: true
+  rewards:
+    command:
+      type: consolecommand
+      value: broadcast %player% completed all Miner advancements!
+  display_name: Miner
+  description: '&eTracking all your mining progress.'
+  item: DIAMOND_PICKAXE
+  gui_location: auto
+  minecraft-gui-display: true
+  minecraft-gui-background: "textures/block/deepslate_diamond_ore.png"
+advancements:
+#Ancient Debris
+  break_ancient_debris1:
+    type: BlockBreak
+    value: ANCIENT_DEBRIS
+    amount: 10
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10 Ancient debris!'
+    display:
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 10 Ancient debris
+      gui_location: auto
+      unit: debris gathered
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_ancient_debris2:
+    type: BlockBreak
+    value: ANCIENT_DEBRIS
+    amount: 100
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_ancient_debris1
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100 Ancient debris!'
+    display:
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 100 Ancient debris
+      gui_location: auto
+      unit: debris gathered
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_ancient_debris3:
+    type: BlockBreak
+    value: ANCIENT_DEBRIS
+    amount: 500
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_ancient_debris2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 500 Ancient debris!'
+    display:
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 500 Ancient debris
+      gui_location: auto
+      unit: debris gathered
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_ancient_debris4:
+    type: BlockBreak
+    value: ANCIENT_DEBRIS
+    amount: 1000
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_ancient_debris3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1.000 Ancient debris!'
+    display:
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 1.000 Ancient debris
+      gui_location: auto
+      unit: debris gathered
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_ancient_debris5:
+    type: BlockBreak
+    value: ANCIENT_DEBRIS
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_ancient_debris4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10.000 Ancient debris!'
+    display:
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 10.000 Ancient debris
+      gui_location: auto
+      unit: debris gathered
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+#Diamond Ores 
+  break_diamond_ore1:
+    type: BlockBreak
+    value: DIAMOND_ORE,DEEPSLATE_DIAMOND_ORE
+    amount: 10
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10 Diamonds!'
+    display:
+      name: Diamond Miner
+      item: DIAMOND_ORE
+      description: Mine 10 Diamonds
+      gui_location: auto
+      unit: diamonds mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_diamond_ore2:
+    type: BlockBreak
+    value: DIAMOND_ORE,DEEPSLATE_DIAMOND_ORE
+    amount: 100
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_diamond_ore1
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100 Diamonds!'
+    display:
+      name: Diamond Miner
+      item: DIAMOND_ORE
+      description: Mine 100 Diamonds
+      gui_location: auto
+      unit: diamonds mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_diamond_ore3:
+    type: BlockBreak
+    value: DIAMOND_ORE,DEEPSLATE_DIAMOND_ORE
+    amount: 500
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_diamond_ore2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 500 Diamonds!'
+    display:
+      name: Diamond Miner
+      item: DIAMOND_ORE
+      description: Mine 500 Diamonds
+      gui_location: auto
+      unit: diamonds mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_diamond_ore4:
+    type: BlockBreak
+    value: DIAMOND_ORE,DEEPSLATE_DIAMOND_ORE
+    amount: 1000
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_diamond_ore3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1.000 Diamonds!'
+    display:
+      name: Diamond Miner
+      item: DIAMOND_ORE
+      description: Mine 1.000 Diamonds
+      gui_location: auto
+      unit: diamonds mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_diamond_ore5:
+    type: BlockBreak
+    value: DIAMOND_ORE,DEEPSLATE_DIAMOND_ORE
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_diamond_ore4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10.000 Diamonds!'
+    display:
+      name: Diamond Miner
+      item: DIAMOND_ORE
+      description: Mine 10.000 Diamonds
+      gui_location: auto
+      unit: diamonds mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+#Iron
+  break_iron_ore1:
+    type: BlockBreak
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    amount: 10
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10 Iron!'
+    display:
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 10 Iron
+      gui_location: auto
+      unit: Iron mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_iron_ore2:
+    type: BlockBreak
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    amount: 100
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_iron_ore1
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100 Iron!'
+    display:
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 100 Iron
+      gui_location: auto
+      unit: Iron mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_iron_ore3:
+    type: BlockBreak
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    amount: 500
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_iron_ore2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 500 Iron!'
+    display:
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 500 Iron
+      gui_location: auto
+      unit: Iron mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_iron_ore4:
+    type: BlockBreak
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    amount: 1000
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_iron_ore3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1.000 Iron!'
+    display:
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 1.000 Iron
+      gui_location: auto
+      unit: Iron mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+  break_iron_ore5:
+    type: BlockBreak
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: Miner.break_iron_ore4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10.000 Iron!'
+    display:
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 10.000 Iron
+      gui_location: auto
+      unit: Iron mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
