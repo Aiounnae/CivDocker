@@ -439,3 +439,110 @@ advancements:
       minecraft-toast: true
       minecraft-chat-announce: true
       minecraft-progress-type: "PERCENTAGE"
+#Coal
+  break_coal_ore1:
+    type: BlockBreak
+    value: COAL_ORE,DEEPSLATE_COAL_ORE
+    amount: 10
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10 Coal!'
+    display:
+      name: Coal Miner I
+      item: COAL_ORE
+      description: Mine 10 Coal
+      gui_location: '4:1'
+      unit: Coal mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
+  break_coal_ore2:
+    type: BlockBreak
+    value: COAL_ORE,DEEPSLATE_COAL_ORE
+    amount: 100
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.break_coal_ore1
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100 Coal!'
+    display:
+      name: Coal Miner II
+      item: COAL_ORE
+      description: Mine 100 Coal
+      gui_location: '4:2'
+      unit: Coal mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
+  break_coal_ore3:
+    type: BlockBreak
+    value: COAL_ORE,DEEPSLATE_COAL_ORE
+    amount: 500
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.break_coal_ore2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 500 Coal!'
+    display:
+      name: Coal Miner III
+      item: COAL_ORE
+      description: Mine 500 Coal
+      gui_location: '4:3'
+      unit: Coal mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
+  break_coal_ore4:
+    type: BlockBreak
+    value: COAL_ORE,DEEPSLATE_COAL_ORE
+    amount: 1000
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.break_coal_ore3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1.000 Coal!'
+    display:
+      name: Coal Miner IV
+      item: COAL_ORE
+      description: Mine 1.000 Coal
+      gui_location: '4:4'
+      unit: Coal mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
+  break_coal_ore5:
+    type: BlockBreak
+    value: COAL_ORE,DEEPSLATE_COAL_ORE
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.break_coal_ore4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10.000 Coal!'
+    display:
+      name: Coal Miner V
+      item: COAL_ORE
+      description: Mine 10.000 Coal
+      gui_location: '4:5'
+      unit: Coal mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
