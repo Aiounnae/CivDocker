@@ -36,7 +36,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_ancient_debris1
+        value: miner.break_ancient_debris1
     rewards:
       message:
         type: message
@@ -57,7 +57,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_ancient_debris2
+        value: miner.break_ancient_debris2
     rewards:
       message:
         type: message
@@ -78,7 +78,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_ancient_debris3
+        value: miner.break_ancient_debris3
     rewards:
       message:
         type: message
@@ -99,7 +99,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_ancient_debris4
+        value: miner.break_ancient_debris4
     rewards:
       message:
         type: message
@@ -138,7 +138,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_diamond_ore1
+        value: miner.break_diamond_ore1
     rewards:
       message:
         type: message
@@ -159,7 +159,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_diamond_ore2
+        value: miner.break_diamond_ore2
     rewards:
       message:
         type: message
@@ -180,7 +180,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_diamond_ore3
+        value: miner.break_diamond_ore3
     rewards:
       message:
         type: message
@@ -201,7 +201,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_diamond_ore4
+        value: miner.break_diamond_ore4
     rewards:
       message:
         type: message
@@ -240,7 +240,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_iron_ore1
+        value: miner.break_iron_ore1
     rewards:
       message:
         type: message
@@ -261,7 +261,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_iron_ore2
+        value: miner.break_iron_ore2
     rewards:
       message:
         type: message
@@ -282,7 +282,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_iron_ore3
+        value: miner.break_iron_ore3
     rewards:
       message:
         type: message
@@ -303,7 +303,7 @@ advancements:
     requirements:
       advancement:
         type: advancement
-        value: Miner.break_iron_ore4
+        value: miner.break_iron_ore4
     rewards:
       message:
         type: message
