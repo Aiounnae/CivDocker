@@ -439,6 +439,113 @@ advancements:
       minecraft-toast: true
       minecraft-chat-announce: true
       minecraft-progress-type: "PERCENTAGE"
+#Copper
+  break_copper_ore1:
+    type: BlockBreak
+    value: COPPER_ORE,DEEPSLATE_COPPER_ORE
+    amount: 10
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10 Copper!'
+    display:
+      name: Copper Miner I
+      item: COPPER_ORE
+      description: Mine 10 Copper
+      gui_location: '5:1'
+      unit: Copper mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
+  break_copper_ore2:
+    type: BlockBreak
+    value: COPPER_ORE,DEEPSLATE_COPPER_ORE
+    amount: 100
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.break_copper_ore1
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100 Copper!'
+    display:
+      name: Copper Miner II
+      item: COPPER_ORE
+      description: Mine 100 Copper
+      gui_location: '5:2'
+      unit: Copper mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
+  break_copper_ore3:
+    type: BlockBreak
+    value: COPPER_ORE,DEEPSLATE_COPPER_ORE
+    amount: 500
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.break_copper_ore2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 500 Copper!'
+    display:
+      name: Copper Miner III
+      item: COPPER_ORE
+      description: Mine 500 Copper
+      gui_location: '5:3'
+      unit: Copper mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
+  break_copper_ore4:
+    type: BlockBreak
+    value: COPPER_ORE,DEEPSLATE_COPPER_ORE
+    amount: 1000
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.break_copper_ore3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1.000 Copper!'
+    display:
+      name: Copper Miner IV
+      item: COPPER_ORE
+      description: Mine 1.000 Copper
+      gui_location: '5:4'
+      unit: Copper mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
+  break_copper_ore5:
+    type: BlockBreak
+    value: COPPER_ORE,DEEPSLATE_COPPER_ORE
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.break_copper_ore4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10.000 Copper!'
+    display:
+      name: Copper Miner V
+      item: COPPER_ORE
+      description: Mine 10.000 Copper
+      gui_location: '5:5'
+      unit: Copper mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "PERCENTAGE"
 #Coal
   break_coal_ore1:
     type: BlockBreak
@@ -452,7 +559,7 @@ advancements:
       name: Coal Miner I
       item: COAL_ORE
       description: Mine 10 Coal
-      gui_location: '4:1'
+      gui_location: '6:1'
       unit: Coal mined
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
@@ -474,7 +581,7 @@ advancements:
       name: Coal Miner II
       item: COAL_ORE
       description: Mine 100 Coal
-      gui_location: '4:2'
+      gui_location: '6:2'
       unit: Coal mined
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
@@ -496,7 +603,7 @@ advancements:
       name: Coal Miner III
       item: COAL_ORE
       description: Mine 500 Coal
-      gui_location: '4:3'
+      gui_location: '6:3'
       unit: Coal mined
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
@@ -518,7 +625,7 @@ advancements:
       name: Coal Miner IV
       item: COAL_ORE
       description: Mine 1.000 Coal
-      gui_location: '4:4'
+      gui_location: '6:4'
       unit: Coal mined
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
@@ -540,7 +647,7 @@ advancements:
       name: Coal Miner V
       item: COAL_ORE
       description: Mine 10.000 Coal
-      gui_location: '4:5'
+      gui_location: '6:5'
       unit: Coal mined
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
