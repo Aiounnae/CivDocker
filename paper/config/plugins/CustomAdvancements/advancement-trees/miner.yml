@@ -9,107 +9,107 @@ options:
   item: DIAMOND_PICKAXE
   gui_location: auto
   minecraft-gui-display: true
-  minecraft-gui-background: "textures/block/deepslate_diamond_ore.png"
+  minecraft-gui-background: "textures/block/deepslate.png"
 advancements:
-#Ancient Debris
-  break_ancient_debris1:
+#Iron
+  break_iron_ore1:
     type: BlockBreak
-    value: ANCIENT_DEBRIS
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
     amount: 10
     rewards:
       message:
         type: message
-        value: '&2You mined 10 Ancient debris!'
+        value: '&2You mined 10 Iron!'
     display:
-      name: Debri Gatherer
-      item: ANCIENT_DEBRIS
-      description: Mine 10 Ancient debris
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 10 Iron
       gui_location: auto
-      unit: debris gathered
+      unit: Iron mined
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-  break_ancient_debris2:
+  break_iron_ore2:
     type: BlockBreak
-    value: ANCIENT_DEBRIS
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
     amount: 100
     requirements:
       advancement:
         type: advancement
-        value: miner.break_ancient_debris1
+        value: miner.break_iron_ore1
     rewards:
       message:
         type: message
-        value: '&2You mined 100 Ancient debris!'
+        value: '&2You mined 100 Iron!'
     display:
-      name: Debri Gatherer
-      item: ANCIENT_DEBRIS
-      description: Mine 100 Ancient debris
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 100 Iron
       gui_location: auto
-      unit: debris gathered
+      unit: Iron mined
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-  break_ancient_debris3:
+  break_iron_ore3:
     type: BlockBreak
-    value: ANCIENT_DEBRIS
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
     amount: 500
     requirements:
       advancement:
         type: advancement
-        value: miner.break_ancient_debris2
+        value: miner.break_iron_ore2
     rewards:
       message:
         type: message
-        value: '&2You mined 500 Ancient debris!'
+        value: '&2You mined 500 Iron!'
     display:
-      name: Debri Gatherer
-      item: ANCIENT_DEBRIS
-      description: Mine 500 Ancient debris
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 500 Iron
       gui_location: auto
-      unit: debris gathered
+      unit: Iron mined
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-  break_ancient_debris4:
+  break_iron_ore4:
     type: BlockBreak
-    value: ANCIENT_DEBRIS
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
     amount: 1000
     requirements:
       advancement:
         type: advancement
-        value: miner.break_ancient_debris3
+        value: miner.break_iron_ore3
     rewards:
       message:
         type: message
-        value: '&2You mined 1.000 Ancient debris!'
+        value: '&2You mined 1.000 Iron!'
     display:
-      name: Debri Gatherer
-      item: ANCIENT_DEBRIS
-      description: Mine 1.000 Ancient debris
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 1.000 Iron
       gui_location: auto
-      unit: debris gathered
+      unit: Iron mined
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-  break_ancient_debris5:
+  break_iron_ore5:
     type: BlockBreak
-    value: ANCIENT_DEBRIS
+    value: IRON_ORE,DEEPSLATE_IRON_ORE
     amount: 10000
     requirements:
       advancement:
         type: advancement
-        value: miner.break_ancient_debris4
+        value: miner.break_iron_ore4
     rewards:
       message:
         type: message
-        value: '&2You mined 10.000 Ancient debris!'
+        value: '&2You mined 10.000 Iron!'
     display:
-      name: Debri Gatherer
-      item: ANCIENT_DEBRIS
-      description: Mine 10.000 Ancient debris
+      name: Iron Miner
+      item: IRON_ORE
+      description: Mine 10.000 Iron
       gui_location: auto
-      unit: debris gathered
+      unit: Iron mined
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
       minecraft-chat-announce: true
@@ -215,105 +215,105 @@ advancements:
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
       minecraft-chat-announce: true
-#Iron
-  break_iron_ore1:
+#Ancient Debris
+  break_ancient_debris1:
     type: BlockBreak
-    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    value: ANCIENT_DEBRIS
     amount: 10
     rewards:
       message:
         type: message
-        value: '&2You mined 10 Iron!'
+        value: '&2You mined 10 Ancient debris!'
     display:
-      name: Iron Miner
-      item: IRON_ORE
-      description: Mine 10 Iron
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 10 Ancient debris
       gui_location: auto
-      unit: Iron mined
+      unit: debris gathered
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-  break_iron_ore2:
+  break_ancient_debris2:
     type: BlockBreak
-    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    value: ANCIENT_DEBRIS
     amount: 100
     requirements:
       advancement:
         type: advancement
-        value: miner.break_iron_ore1
+        value: miner.break_ancient_debris1
     rewards:
       message:
         type: message
-        value: '&2You mined 100 Iron!'
+        value: '&2You mined 100 Ancient debris!'
     display:
-      name: Iron Miner
-      item: IRON_ORE
-      description: Mine 100 Iron
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 100 Ancient debris
       gui_location: auto
-      unit: Iron mined
+      unit: debris gathered
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-  break_iron_ore3:
+  break_ancient_debris3:
     type: BlockBreak
-    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    value: ANCIENT_DEBRIS
     amount: 500
     requirements:
       advancement:
         type: advancement
-        value: miner.break_iron_ore2
+        value: miner.break_ancient_debris2
     rewards:
       message:
         type: message
-        value: '&2You mined 500 Iron!'
+        value: '&2You mined 500 Ancient debris!'
     display:
-      name: Iron Miner
-      item: IRON_ORE
-      description: Mine 500 Iron
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 500 Ancient debris
       gui_location: auto
-      unit: Iron mined
+      unit: debris gathered
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-  break_iron_ore4:
+  break_ancient_debris4:
     type: BlockBreak
-    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    value: ANCIENT_DEBRIS
     amount: 1000
     requirements:
       advancement:
         type: advancement
-        value: miner.break_iron_ore3
+        value: miner.break_ancient_debris3
     rewards:
       message:
         type: message
-        value: '&2You mined 1.000 Iron!'
+        value: '&2You mined 1.000 Ancient debris!'
     display:
-      name: Iron Miner
-      item: IRON_ORE
-      description: Mine 1.000 Iron
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 1.000 Ancient debris
       gui_location: auto
-      unit: Iron mined
+      unit: debris gathered
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-  break_iron_ore5:
+  break_ancient_debris5:
     type: BlockBreak
-    value: IRON_ORE,DEEPSLATE_IRON_ORE
+    value: ANCIENT_DEBRIS
     amount: 10000
     requirements:
       advancement:
         type: advancement
-        value: miner.break_iron_ore4
+        value: miner.break_ancient_debris4
     rewards:
       message:
         type: message
-        value: '&2You mined 10.000 Iron!'
+        value: '&2You mined 10.000 Ancient debris!'
     display:
-      name: Iron Miner
-      item: IRON_ORE
-      description: Mine 10.000 Iron
+      name: Debri Gatherer
+      item: ANCIENT_DEBRIS
+      description: Mine 10.000 Ancient debris
       gui_location: auto
-      unit: Iron mined
+      unit: debris gathered
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
       minecraft-chat-announce: true
