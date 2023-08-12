@@ -29,7 +29,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_stone2:
     type: BlockBreak
     value: STONE
@@ -51,7 +51,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_stone3:
     type: BlockBreak
     value: STONE
@@ -73,7 +73,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_stone4:
     type: BlockBreak
     value: STONE
@@ -95,7 +95,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_stone5:
     type: BlockBreak
     value: STONE
@@ -117,7 +117,7 @@ advancements:
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
 #Deepslate 
   break_deepslate1:
     type: BlockBreak
@@ -136,7 +136,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_deepslate2:
     type: BlockBreak
     value: DEEPSLATE
@@ -158,7 +158,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_deepslate3:
     type: BlockBreak
     value: DEEPSLATE
@@ -180,7 +180,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_deepslate4:
     type: BlockBreak
     value: DEEPSLATE
@@ -202,7 +202,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_deepslate5:
     type: BlockBreak
     value: DEEPSLATE
@@ -224,7 +224,7 @@ advancements:
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
 #Obsidian
   break_obsidian1:
     type: BlockBreak
@@ -243,7 +243,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_obsidian2:
     type: BlockBreak
     value: OBSIDIAN
@@ -265,7 +265,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_obsidian3:
     type: BlockBreak
     value: OBSIDIAN
@@ -287,7 +287,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_obsidian4:
     type: BlockBreak
     value: OBSIDIAN
@@ -309,7 +309,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_obsidian5:
     type: BlockBreak
     value: OBSIDIAN
@@ -331,7 +331,7 @@ advancements:
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
 #Sand
   break_sand1:
     type: BlockBreak
@@ -350,7 +350,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_sand2:
     type: BlockBreak
     value: SAND
@@ -372,7 +372,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_sand3:
     type: BlockBreak
     value: SAND
@@ -394,7 +394,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_sand4:
     type: BlockBreak
     value: SAND
@@ -416,7 +416,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_sand5:
     type: BlockBreak
     value: SAND
@@ -438,7 +438,7 @@ advancements:
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
 #Netherrack
   break_netherrack1:
     type: BlockBreak
@@ -457,7 +457,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_netherrack2:
     type: BlockBreak
     value: NETTHERRACK
@@ -479,7 +479,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_netherrack3:
     type: BlockBreak
     value: NETTHERRACK
@@ -501,7 +501,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_netherrack4:
     type: BlockBreak
     value: NETTHERRACK
@@ -523,7 +523,7 @@ advancements:
       minecraft-gui-frame: "GOAL"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"
   break_netherrack5:
     type: BlockBreak
     value: NETTHERRACK
@@ -545,4 +545,4 @@ advancements:
       minecraft-gui-frame: "CHALLENGE"
       minecraft-toast: true
       minecraft-chat-announce: true
-      minecraft-progress-type: "COUNT"
+      minecraft-progress-type: "PERCENTAGE"

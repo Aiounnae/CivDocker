@@ -33,7 +33,7 @@ advancements:
   build_dirt2:
     type: BlockBreak
     value: DIRT, COARSE_DIRT, ROOTED_DIRT, GRASS_BLOCK
-    amount: 10000
+    amount: 5000
     requirements:
       advancement:
         type: advancement
@@ -45,7 +45,7 @@ advancements:
     display:
       name: Debri Miner II
       item: GRASS_BLOCK
-      description: Place 1000 Dirt/Grass
+      description: Place 5000 Dirt/Grass
       gui_location: '1:2'
       unit: Blocks Placed
       minecraft-gui-frame: "GOAL"
