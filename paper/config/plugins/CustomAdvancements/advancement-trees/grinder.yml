@@ -1,0 +1,548 @@
+options:
+  auto_active: true
+  rewards:
+    command:
+      type: consolecommand
+      value: broadcast %player% completed all Miner advancements!
+  display_name: Grinder
+  description: '&eTracking all your mining progress.'
+  item: GRINDSTONE
+  gui_location: '1,7'
+  minecraft-gui-display: true
+  minecraft-gui-background: "textures/block/netherite_block.png"
+advancements:
+#Stone
+  break_stone1:
+    type: BlockBreak
+    value: STONE
+    amount: 1000
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1000 Stone!'
+    display:
+      name: Stone Miner I
+      item: STONE
+      description: Mine 1000 Stone
+      gui_location: '1:1'
+      unit: Stone Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_stone2:
+    type: BlockBreak
+    value: STONE
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_stone1  
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000 Stone!'
+    display:
+      name: Stone Miner II
+      item: STONE
+      description: Mine 10,000 Stone
+      gui_location: '1:2'
+      unit: Stone Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_stone3:
+    type: BlockBreak
+    value: STONE
+    amount: 100000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_stone2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100,000 Stone!'
+    display:
+      name: Stone Miner III
+      item: STONE
+      description: Mine 100,000 Stone
+      gui_location: '1:3'
+      unit: Stone Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_stone4:
+    type: BlockBreak
+    value: STONE
+    amount: 1000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_stone3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1,000,000 Stone!'
+    display:
+      name: Stone Miner IV
+      item: STONE
+      description: Mine 1,000,000 Stone
+      gui_location: '1:4'
+      unit: Stone Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_stone5:
+    type: BlockBreak
+    value: STONE
+    amount: 10000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_stone4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000,000 Stone!'
+    display:
+      name: Stone Miner V
+      item: STONE
+      description: Mine 10,000,000 Stone
+      gui_location: '1:5'
+      unit: Stone Mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+#Deepslate 
+  break_deepslate1:
+    type: BlockBreak
+    value: DEEPSLATE
+    amount: 1000
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1000 Deepslate!'
+    display:
+      name: Deepslate Miner I
+      item: DEEPSLATE
+      description: Mine 1000 Deepslate
+      gui_location: '1:1'
+      unit: Deepslate Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_deepslate2:
+    type: BlockBreak
+    value: DEEPSLATE
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_deepslate1  
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000 Deepslate!'
+    display:
+      name: Deepslate Miner II
+      item: DEEPSLATE
+      description: Mine 10,000 Deepslate
+      gui_location: '1:2'
+      unit: Deepslate Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_deepslate3:
+    type: BlockBreak
+    value: DEEPSLATE
+    amount: 100000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_deepslate2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100,000 Deepslate!'
+    display:
+      name: Deepslate Miner III
+      item: DEEPSLATE
+      description: Mine 100,000 Deepslate
+      gui_location: '1:3'
+      unit: Deepslate Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_deepslate4:
+    type: BlockBreak
+    value: DEEPSLATE
+    amount: 1000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_deepslate3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1,000,000 Deepslate!'
+    display:
+      name: Deepslate Miner IV
+      item: DEEPSLATE
+      description: Mine 1,000,000 Deepslate
+      gui_location: '1:4'
+      unit: Deepslate Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_deepslate5:
+    type: BlockBreak
+    value: DEEPSLATE
+    amount: 10000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_deepslate4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000,000 Deepslate!'
+    display:
+      name: Deepslate Miner V
+      item: DEEPSLATE
+      description: Mine 10,000,000 Deepslate
+      gui_location: '1:5'
+      unit: Deepslate Mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+#Obsidian
+  break_obsidian1:
+    type: BlockBreak
+    value: OBSIDIAN
+    amount: 1000
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1000 Obsidian!'
+    display:
+      name: Obsidian Miner I
+      item: OBSIDIAN
+      description: Mine 1000 Obsidian
+      gui_location: '1:1'
+      unit: Obsidian Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_obsidian2:
+    type: BlockBreak
+    value: OBSIDIAN
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_obsidian1  
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000 Obsidian!'
+    display:
+      name: Obsidian Miner II
+      item: OBSIDIAN
+      description: Mine 10,000 Obsidian
+      gui_location: '1:2'
+      unit: Obsidian Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_obsidian3:
+    type: BlockBreak
+    value: OBSIDIAN
+    amount: 100000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_obsidian2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100,000 Obsidian!'
+    display:
+      name: Obsidian Miner III
+      item: OBSIDIAN
+      description: Mine 100,000 Obsidian
+      gui_location: '1:3'
+      unit: Obsidian Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_obsidian4:
+    type: BlockBreak
+    value: OBSIDIAN
+    amount: 1000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_obsidian3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1,000,000 Obsidian!'
+    display:
+      name: Obsidian Miner IV
+      item: OBSIDIAN
+      description: Mine 1,000,000 Obsidian
+      gui_location: '1:4'
+      unit: Obsidian Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_obsidian5:
+    type: BlockBreak
+    value: OBSIDIAN
+    amount: 10000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_obsidian4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000,000 Obsidian!'
+    display:
+      name: Obsidian Miner V
+      item: OBSIDIAN
+      description: Mine 10,000,000 Obsidian
+      gui_location: '1:5'
+      unit: Obsidian Mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+#Sand
+  break_sand1:
+    type: BlockBreak
+    value: SAND
+    amount: 1000
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1000 Sand!'
+    display:
+      name: Sand Miner I
+      item: SAND
+      description: Mine 1000 Sand
+      gui_location: '1:1'
+      unit: Sand Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_sand2:
+    type: BlockBreak
+    value: SAND
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_sand1  
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000 Sand!'
+    display:
+      name: Sand Miner II
+      item: SAND
+      description: Mine 10,000 Sand
+      gui_location: '1:2'
+      unit: Sand Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_sand3:
+    type: BlockBreak
+    value: SAND
+    amount: 100000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_sand2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100,000 Sand!'
+    display:
+      name: Sand Miner III
+      item: SAND
+      description: Mine 100,000 Sand
+      gui_location: '1:3'
+      unit: Sand Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_sand4:
+    type: BlockBreak
+    value: SAND
+    amount: 1000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_sand3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1,000,000 Sand!'
+    display:
+      name: Sand Miner IV
+      item: SAND
+      description: Mine 1,000,000 Sand
+      gui_location: '1:4'
+      unit: Sand Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_sand5:
+    type: BlockBreak
+    value: SAND
+    amount: 10000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_sand4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000,000 Sand!'
+    display:
+      name: Sand Miner V
+      item: SAND
+      description: Mine 10,000,000 Sand
+      gui_location: '1:5'
+      unit: Sand Mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+#Netherrack
+  break_netherrack1:
+    type: BlockBreak
+    value: NETTHERRACK
+    amount: 1000
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1000 Netherrack!'
+    display:
+      name: Netherrack Miner I
+      item: NETTHERRACK
+      description: Mine 1000 Netherrack
+      gui_location: '1:1'
+      unit: Netherrack Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_netherrack2:
+    type: BlockBreak
+    value: NETTHERRACK
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_netherrack1  
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000 Netherrack!'
+    display:
+      name: Netherrack Miner II
+      item: NETTHERRACK
+      description: Mine 10,000 Netherrack
+      gui_location: '1:2'
+      unit: Netherrack Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_netherrack3:
+    type: BlockBreak
+    value: NETTHERRACK
+    amount: 100000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_netherrack2
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 100,000 Netherrack!'
+    display:
+      name: Netherrack Miner III
+      item: NETTHERRACK
+      description: Mine 100,000 Netherrack
+      gui_location: '1:3'
+      unit: Netherrack Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_netherrack4:
+    type: BlockBreak
+    value: NETTHERRACK
+    amount: 1000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_netherrack3
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 1,000,000 Netherrack!'
+    display:
+      name: Netherrack Miner IV
+      item: NETTHERRACK
+      description: Mine 1,000,000 Netherrack
+      gui_location: '1:4'
+      unit: Netherrack Mined
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  break_netherrack5:
+    type: BlockBreak
+    value: NETTHERRACK
+    amount: 10000000
+    requirements:
+      advancement:
+        type: advancement
+        value: grinder.break_netherrack4
+    rewards:
+      message:
+        type: message
+        value: '&2You mined 10,000,000 Netherrack!'
+    display:
+      name: Netherrack Miner V
+      item: NETTHERRACK
+      description: Mine 10,000,000 Netherrack
+      gui_location: '1:5'
+      unit: Netherrack Mined
+      minecraft-gui-frame: "CHALLENGE"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"

@@ -4,12 +4,12 @@ options:
     command:
       type: consolecommand
       value: broadcast %player% completed all Miner advancements!
-  display_name: Miner
+  display_name: Community
   description: '&eTracking all your mining progress.'
-  item: DIAMOND_PICKAXE
-  gui_location: '1,5'
+  item: WRITABLE_BOOK
+  gui_location: '1,2'
   minecraft-gui-display: true
-  minecraft-gui-background: "textures/block/deepslate.png"
+  minecraft-gui-background: "textures/block/amethyst_block.png"
 advancements:
 #Ancient Debris
   break_ancient_debris1:

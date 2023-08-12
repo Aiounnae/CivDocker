@@ -1,0 +1,59 @@
+options:
+  auto_active: true
+  rewards:
+    command:
+      type: consolecommand
+      value: broadcast %player% completed all Miner advancements!
+  display_name: Builder
+  description: '&eTracking all your mining progress.'
+  item: BRICKS
+  gui_location: '1,4'
+  minecraft-gui-display: true
+  minecraft-gui-background: "textures/block/spruce_planks.png"
+advancements:
+#Dirt
+  build_dirt1:
+    type: BlockPlace
+    value: DIRT, COARSE_DIRT, ROOTED_DIRT, GRASS_BLOCK
+    amount: 1000
+    rewards:
+      message:
+        type: message
+        value: '&2You achieved Terraformer I!!'
+    display:
+      name: Debri Miner I
+      item: GRASS_BLOCK
+      description: Place 1000 Dirt/Grass
+      gui_location: '1:1'
+      unit: Blocks Placed
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  build_dirt2:
+    type: BlockBreak
+    value: DIRT, COARSE_DIRT, ROOTED_DIRT, GRASS_BLOCK
+    amount: 10000
+    requirements:
+      advancement:
+        type: advancement
+        value: miner.build_dirt1
+    rewards:
+      message:
+        type: message
+        value: '&2You achieved Terraformer II!'
+    display:
+      name: Debri Miner II
+      item: GRASS_BLOCK
+      description: Place 1000 Dirt/Grass
+      gui_location: '1:2'
+      unit: Blocks Placed
+      minecraft-gui-frame: "GOAL"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+#Bricks
+
+#Wood
+
+#Foliage

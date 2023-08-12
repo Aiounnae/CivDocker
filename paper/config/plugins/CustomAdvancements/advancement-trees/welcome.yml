@@ -1,0 +1,163 @@
+options:
+  auto_active: true
+  rewards:
+    command:
+      type: consolecommand
+      value: say %player% completed all Welcome advancements!
+  display_name: Welcome
+  description: '&eLearning how to play CivMC.'
+  item: GOLDEN_APPLE
+  gui_location: '1,1'
+  minecraft-gui-display: true
+  minecraft-gui-background: "textures/block/dirt.png"
+advancements:
+  welcome:
+    type: join
+    value: 
+    amount: 1
+    rewards:
+      message:
+        type: message
+        value: '&2Welcome to CivMC! &cCheck advancements and your book on how to play!'
+    display:
+      name: A new friend
+      item: APPLE
+      description: Join the server
+      gui_location: '1:1'
+      unit: Times joined
+      minecraft-gui-frame: "TASK"
+      minecraft-toast: true
+      minecraft-chat-announce: false
+      minecraft-progress-type: "NONE"
+  global:
+    type: executecommand
+    value: "/g !"
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: welcome.welcome
+    rewards:
+      message:
+        type: message
+        value: 'c2Well done, Check Welcome advancements for the next step!'
+    display:
+      name: A whole new world!
+      item: BOOK
+      description: Perform the command "/g !" and join global chat "/g" on its own to leave.
+      gui_location: '1:2'
+      unit: Commands performed
+      minecraft-gui-frame: "TASK"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  ott:
+    type: executecommand
+    value: "/ott to"
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: welcome.global
+    rewards:
+      message:
+        type: message
+        value: '&cWith a player name of choice behind it this time ;)'
+    display:
+      name: Where am I?
+      item: CHORUS_FRUIT
+      description: Perform the command "/ott to" to request a teleport to another player. You only get one though!
+      gui_location: '1:3'
+      unit: Commands performed
+      minecraft-gui-frame: "TASK"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  realistic_biomes_start:
+    type: executecommand
+    value: "/rb"
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: welcome.global
+    rewards:
+      message:
+        type: message
+        value: '&cYou have unlocked the Realistic Biomes advancement tree!'
+    display:
+      name: Agrarian
+      item: OAK_SAPLING
+      description: Perform the command "/rb" and learn about the Realistic Biomes plugin.
+      gui_location: '1:4'
+      unit: Commands performed
+      minecraft-gui-frame: "TASK"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  factorymod_start:
+    type: executecommand
+    value: "/fm"
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: welcome.global
+    rewards:
+      message:
+        type: message
+        value: '&cYou have unlocked the Factorymod advancement tree!'
+    display:
+      name: Aspiring Industrialist
+      item: CRAFTING_TABLE
+      description: Perform the command "/fm" and learn about the Factorymod plugin.
+      gui_location: '1:5'
+      unit: Commands performed
+      minecraft-gui-frame: "TASK"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  namerlayer_start:
+    type: executecommand
+    value: "/nl"
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: welcome.global
+    rewards:
+      message:
+        type: message
+        value: '&cYou have unlocked the Namelayer advancement tree!'
+    display:
+      name: Group Manager
+      item: NAME_TAG
+      description: Perform the command "/nl" and learn about the Namelayer plugin.
+      gui_location: '1:6'
+      unit: Commands performed
+      minecraft-gui-frame: "TASK"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
+  citadel_start:
+    type: executecommand
+    value: "/reinforcements"
+    amount: 1
+    requirements:
+      advancement:
+        type: advancement
+        value: welcome.global
+    rewards:
+      message:
+        type: message
+        value: '&cYou have unlocked the Citadel advancement tree!'
+    display:
+      name: Reinforcements Arrived!
+      item: STONE
+      description: Perform the command "/Reinforcements" and learn about the Citadel plugin.
+      gui_location: '1:7'
+      unit: Commands performed
+      minecraft-gui-frame: "TASK"
+      minecraft-toast: true
+      minecraft-chat-announce: true
+      minecraft-progress-type: "COUNT"
