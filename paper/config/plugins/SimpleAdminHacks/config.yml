@@ -469,7 +469,7 @@ hacks:
       title: Welcome ${player}!
       author: RedDevel
       pages: 
-        - "&5Hello and welcome to CivMC, &2${player}!\n\n   A server based on nation building and political roleplay, where admin control is minimal and players have the opportunity to dispense their own justice. A world ripe with chance for any new friend to carve out their own legacy."
+        - " \\u0020 \\u0020Welcome to CivMC!","color":"dark_green"},{"text":"\\n\\nA server based on nation building and political roleplay, where admin control is minimal and players have the opportunity to dispense their own justice.\\n\\nA sandbox for any for anyone to tell their own tale and leave a legacy.","color":"reset"
         - "With an almost decade long history, filled with moments of high excitement in war and of peace, farming and socializing with your closest allies. Where countries, towns, and cities consist of more than just the blocks they're made of." 
         - "   &1Namelayer&r\nPocket radios! Create or join chat groups to communicate with friends all over CivMC. By default you have joined global chat or ! chat. You can switch from local chat (1000 block radius) to this one by performing the command: /g !"
         - "Go back to localchat by performing the /g command on it own. This works for any group you are allowed to speak in. just switch ! for the name of the group. \nCreate your own group using the GUI by perfoming the /nl Command."
